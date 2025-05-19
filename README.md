@@ -66,5 +66,23 @@ Edit
 ```bash
 git clone git@github.com:christine-muigai/coffee-shop.git
 cd coffee-shop
+2. Set up your environment
+bash
+Copy
+Edit
+pipenv install
+pipenv shell
+3. Run the debug script to see output
+bash
+Copy
+Edit
+python3 debug.py
 
 
+
+4. Run tests with pytest
+bash
+Copy
+Edit
+pipenv install pytest --dev
+pytest
